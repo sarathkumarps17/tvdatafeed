@@ -23,7 +23,7 @@ setup(
     long_description=long_description,
     install_requires=[
         "setuptools",
-        "pandas",
+        "pandas==2.0",
         "websocket-client",
         "requests"
     ],
